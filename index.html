@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chọn Đối Tượng</title>
+    <style>
+        body {
+            background-color: #3498db;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #1abc9c;
+        }
+        .banner {
+            width: 100%;
+            background-color: #2c3e50;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            text-align: center;
+            font-size: 1.5em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Quý vị là:</h1>
-    <button onclick="window.location.href='https://forms.gle/DfbSL9vVbBY26zvDA'">A. Doanh nghiệp Tạo tác động Xã hội (SIB)</button>
-    <button onclick="window.location.href='https://forms.gle/HEv53qZPqEaNCVJ38'">B. Chuyên gia, Đại diện Tổ chức hỗ trợ SIBs</button>
+    <div class="banner">Welcome to Our Survey</div>
+    <div class="container">
+        <h1>Quý vị là:</h1>
+        <button onclick="window.location.href='https://forms.gle/DfbSL9vVbBY26zvDA'">A. Doanh nghiệp Tạo tác động Xã hội (SIB)</button>
+        <button onclick="window.location.href='https://forms.gle/HEv53qZPqEaNCVJ38'">B. Chuyên gia, Đại diện Tổ chức hỗ trợ SIBs</button>
+    </div>
 </body>
 </html>
